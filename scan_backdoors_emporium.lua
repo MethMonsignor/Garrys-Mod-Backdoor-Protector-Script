@@ -101,14 +101,7 @@ concommand.Add("emporiumrp_scan_all", function(ply, cmd, args)
     end
 
     local addonList = {
-        "_fixes", "_scripts", "afk system", "angryhobo", "Bitminers-2-master",
-        "Blues-Anti-Prop-Minge-master", "Blues-ATM-master", "Blues-Double-or-Nothing-master",
-        "Blues-Farm-master", "Blues-Pharmaceuticals-master", "Blues-Red-Sushi-master",
-        "Blues-Slots-Wheel-Of-Luck-master", "chatcommands", "custom_lockpicks",
-        "DarkRP Weapons", "darkrpmodification-master", "esclib", "GlorifiedLeveling-master",
-        "kshop", "luctus_chat", "luctus_fps_boost", "luctus_hud", "luctus_motd",
-        "luctus_propblacklist", "luctus_safezones", "luctus_scoreboard", "luctus_streetrobber",
-        "meth_lab", "money-leaderboard", "onemenuF4", "ulib", "ulx", "utime-master"
+        "addon", "addon", "Addon""
     }
 
     print("[EmporiumRP Audit] Initiating full batch scan of addons...")
@@ -130,4 +123,5 @@ _G.EmporiumRP_Tools["scan_addon"] = {
     version = "1.3",
     manualOnly = true,
     loaded = true
+
 }

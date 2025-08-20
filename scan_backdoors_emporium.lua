@@ -1,5 +1,5 @@
 --[[
-script Integrity Scanner
+Backdoor Protection
 Copyright (c) 2025 Meth Monsignor, Emporium Server Owner
 Licensed under the MIT License.
 Free to use, modify, and distribute with attribution.
@@ -125,5 +125,6 @@ _G.EmporiumRP_Tools["scan_addon"] = {
     loaded = true
 
 }
+
 
 

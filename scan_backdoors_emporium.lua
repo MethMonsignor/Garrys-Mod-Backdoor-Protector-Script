@@ -1,9 +1,9 @@
---[[ 
-    EmporiumRP Backdoor Scanner
-    Meth Monsignor
-    Scans a specified addon for risky patterns and syntax errors.
-    Server-only
---]]
+--[[
+script Integrity Scanner
+Copyright (c) 2025 Meth Monsignor, Emporium Server Owner
+Licensed under the MIT License.
+Free to use, modify, and distribute with attribution.
+]]
 
 if not SERVER then return end
 
@@ -125,4 +125,5 @@ _G.EmporiumRP_Tools["scan_addon"] = {
     loaded = true
 
 }
+
 

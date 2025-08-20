@@ -1,8 +1,8 @@
 --[[ 
-    MODULE: EmporiumRP Backdoor Scanner
-    Author: Meth Monsignor
-    Description: Scans a specified addon for risky patterns and syntax errors.
-    Realm: Server-only
+    EmporiumRP Backdoor Scanner
+    Meth Monsignor
+    Scans a specified addon for risky patterns and syntax errors.
+    Server-only
 --]]
 
 if not SERVER then return end
@@ -125,3 +125,4 @@ _G.EmporiumRP_Tools["scan_addon"] = {
     loaded = true
 
 }
+

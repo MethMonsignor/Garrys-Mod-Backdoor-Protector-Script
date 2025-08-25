@@ -3,6 +3,7 @@ This script scans Garry's Mod addons for known backdoor patterns, remote executi
 The Backdoor Protector is part of EmporiumRP’s diagnostic suite, built to reinforce ethical scripting practices and protect community spaces from hidden exploits.
 
 What It Does
+
 Recursively scans .lua files inside specified addon folders
 
 Flags risky constructs such as:
